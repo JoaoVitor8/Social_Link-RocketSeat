@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 100px;
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.usuario {
+    padding: 1px 1px 70px 1px;
+}
+
+.usuario img {
+    border: 3px solid green;
+    border-radius: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    margin: 2px;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: green;
+    padding: 5px 115px
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.email img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.tel img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+
+footer p {
+    color: green;
+}
